@@ -22,6 +22,7 @@
     position: fixed;
     width: inherit;
     height: 65px;
+    z-index: 1;
   }
   
   .brand-logo img {
@@ -127,6 +128,7 @@
   .section_suptitle {
     font-size: 35px;
     font-family: 'Caveat', cursive;
+    text-align: center;
   }
   
   .section_title {
@@ -150,8 +152,42 @@
     font-size: 20px;
     font-family: 'Amatic SC', cursive;
   }
+
+  .section_info{
+    background-color: #aacbeb;
+    padding-top: 10px;
+    color: #384a82;
+  }
   
-  
+  .info{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .info_block{
+    text-align: center;
+    border: 3px solid #384a82;
+    width: 340px;
+  }
+
+  .info_image{
+    margin-top: 0px;
+    width: 310px;
+    padding: 13px;
+  }
+
+  .info_text{
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+  }
+
+  .info_description{
+    font-size: 15px;
+    font-family: 'Caveat', cursive;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
   
   .about {
     display:flex;
