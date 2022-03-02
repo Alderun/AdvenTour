@@ -471,3 +471,10 @@
   .social_logo{
     height: 32px;
   }
+
+  .video{
+    background-color: #aacbeb;
+    color:#aacbeb ;
+    display: flex;
+    justify-content: center;
+  }
