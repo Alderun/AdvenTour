@@ -471,6 +471,9 @@
   .social_logo{
     height: 32px;
   }
+  .social_logo:hover{
+    transform: translate3d(3px,-3px,0);
+  }
 
   .video{
     background-color: #aacbeb;
